@@ -6,11 +6,11 @@ from infrastructure.road import draw_road
 
 def draw_city():
     draw_safety()
-    draw_road()
+    draw_road(4, "horizontal")
     draw_leisure()
-    draw_road()
+    draw_road(5, "vertical")
     draw_outdoors()
-    draw_road()
+    draw_road(5)
     draw_education()
     return
 
